@@ -643,9 +643,9 @@
 
 
 package:
-   name: cudatoolkit
+  name: cudatoolkit
    # match the package version to the libcudart.so version
-   version: {{ version }}
+  version: {{ version }}
 
 source:
   - path: ./build.py
@@ -658,10 +658,11 @@ source:
     md5: {{ cudavars[major_minor]["checksums"]["win"] }}  # [win]
 
 build:
-  number: 13
+  number: 14
   script_env:
     - NVTOOLSEXT_INSTALL_PATH
     - DEBUG_INSTALLER_PATH
+    - check-glibc "$PREFIX"/lib*/*.so.* "$PREFIX"/bin/* "$PREFIX"/targets/*/lib*/*.so.* "$PREFIX"/targets/*/bin/*  # [linux]
   missing_dso_whitelist:
     - "$RPATH/libdl.so.2"
     - "$RPATH/libpthread.so.0"
@@ -690,6 +691,7 @@ requirements:
   build:
     - 7za  # [win]
     - python >=3.7
+    - cf-nvidia-tools 1  # [linux]
     # for run_exports
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
