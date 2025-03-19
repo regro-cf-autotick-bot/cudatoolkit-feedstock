@@ -510,6 +510,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/cuda](https://github.com/orgs/conda-forge/teams/cuda/)
 * [@jaimergp](https://github.com/jaimergp/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@kkraus14](https://github.com/kkraus14/)

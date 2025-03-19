@@ -67,88 +67,89 @@ jobs:
       linux_aarch64_major_minor_ver11.0:
         CONFIG: linux_aarch64_major_minor_ver11.0
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.1:
         CONFIG: linux_aarch64_major_minor_ver11.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.2.2:
         CONFIG: linux_aarch64_major_minor_ver11.2.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.3.1:
         CONFIG: linux_aarch64_major_minor_ver11.3.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.4.3:
         CONFIG: linux_aarch64_major_minor_ver11.4.3
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.5.2:
         CONFIG: linux_aarch64_major_minor_ver11.5.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.6.1:
         CONFIG: linux_aarch64_major_minor_ver11.6.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.6.2:
         CONFIG: linux_aarch64_major_minor_ver11.6.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.7.1:
         CONFIG: linux_aarch64_major_minor_ver11.7.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_major_minor_ver11.8.0:
         CONFIG: linux_aarch64_major_minor_ver11.8.0
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_ppc64le_major_minor_ver10.2:
         CONFIG: linux_ppc64le_major_minor_ver10.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.0:
         CONFIG: linux_ppc64le_major_minor_ver11.0
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.1:
         CONFIG: linux_ppc64le_major_minor_ver11.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.2.2:
         CONFIG: linux_ppc64le_major_minor_ver11.2.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.3.1:
         CONFIG: linux_ppc64le_major_minor_ver11.3.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.4.3:
         CONFIG: linux_ppc64le_major_minor_ver11.4.3
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.5.2:
         CONFIG: linux_ppc64le_major_minor_ver11.5.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.6.1:
         CONFIG: linux_ppc64le_major_minor_ver11.6.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.6.2:
         CONFIG: linux_ppc64le_major_minor_ver11.6.2
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.7.1:
         CONFIG: linux_ppc64le_major_minor_ver11.7.1
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_major_minor_ver11.8.0:
         CONFIG: linux_ppc64le_major_minor_ver11.8.0
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
   - script: |
